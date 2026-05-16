@@ -1,0 +1,26 @@
+{
+  "name": "comphp/auth-mssqldb",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Authentication\\MSSQL\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Authentication\\MSSQL\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  }
+}
